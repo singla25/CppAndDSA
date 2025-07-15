@@ -1,3 +1,3 @@
 int n;
-    cout << "Enter a number: ";
-    cin >> n;
+    // cout << "Enter the number: ";
+    // cin >> n;
