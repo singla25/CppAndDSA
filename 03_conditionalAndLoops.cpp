@@ -9,15 +9,15 @@ int main() {
     // cout << "The ASCII value of a is: " << a << endl;
 
     // int a, b;
-    // cout << "Enter thge value of a: ";
+    // cout << "Enter the value of a: ";
     // cin >> a;
     // cout << "Enter the value of b: ";
     // cin >> b;
 
     // if(a>b) {
     //     cout << "a is greater than b" << endl;
-    
     // } 
+
     // if(b>a) {
     //     cout << "b is greater than a" << endl;
     // }
@@ -30,7 +30,6 @@ int main() {
 
     // if(a>b) {
     //     cout << "a is greater than b" << endl;
-    
     // } else {
     //     cout << "b is greater than a" << endl;
     // }
@@ -65,7 +64,7 @@ int main() {
     // cout << "The number is: " << n << endl;
     // if (n > 0) {
     //     cout << "The number is positive." << endl;
-    // } else if(n < 0) {
+    // } else if (n < 0) {
     //     cout << "The number is negative." << endl;
     // } else {
     //     cout << "The number is zero." << endl;
@@ -86,30 +85,30 @@ int main() {
     // int b = a+1;
 
     // if((a=3) == b) {
-    //     cout << a;
+    //     cout << a+2;
     // } else {
-    //     cout << a+1;
+    //     cout << a+5;
     // }
 
-    // int a = 24;
-    // if(a > 20) {
-    //     cout << "Love";
-    // } else if (a == 20) {
-    //     cout << "Lovely";
-    // } else {
-    //     cout << "Babbar";
-    // }
-    // cout << a;
-
-    char ch;
-    cout << "Enter a character: ";
-    cin >> ch;
-    if (ch >= 'A' && ch <= 'Z') {
-        cout << "The chracter is upper case" << endl;
-    } else if (ch >= 'a' && ch <= 'z') {
-        cout << "The chracter is lower case" << endl;
+    int a = 24;
+    if(a > 20) {
+        cout << "Love";
+    } else if (a == 20) {
+        cout << "Lovely";
     } else {
-        cout << "The character is numeric" << endl;
+        cout << "Babbar";
     }
+    cout << a;
+
+    // char ch;
+    // cout << "Enter a character: ";
+    // cin >> ch;
+    // if (ch >= 'A' && ch <= 'Z') {
+    //     cout << "The chracter is upper case" << endl;
+    // } else if (ch >= 'a' && ch <= 'z') {
+    //     cout << "The chracter is lower case" << endl;
+    // } else {
+    //     cout << "The character is numeric" << endl;
+    // }
 
 }
