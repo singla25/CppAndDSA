@@ -24,7 +24,6 @@ int main() {
     // int n;
     // cout << "Enter a number: ";
     // cin >> n;
-
     // int i = 2, sum = 0;
     // while (i <= n) {
     //     if (i % 2 == 0) {
@@ -37,7 +36,6 @@ int main() {
     // int n;
     // cout << "Enter a number: ";
     // cin >> n;
-
     // int i = 1, sum = 0;
     // while (i <= n) {
     //     if (i % 2 != 0) {
@@ -47,21 +45,15 @@ int main() {
     // }
     // cout << "The sum of odd numbers from 1 to " << n << " is: " << sum << endl;
 
-    // int startF, endF, stepF;
-
-    // // Input start, end and step values
+    // int startF, endF, stepF;   // Input start, end and step values
     // cout << "Enter starting Fahrenheit value: ";
     // cin >> startF;
-
     // cout << "Enter ending Fahrenheit value: ";
     // cin >> endF;
-
     // cout << "Enter step size: ";
     // cin >> stepF;
-
     // cout << "\nFahrenheit\tCelsius\n";
     // cout << "--------------------------\n";
-
     // int f = startF;
     // while (f <= endF) {
     //     float c = (f - 32) * 5.0 / 9; // Conversion formula
@@ -72,7 +64,6 @@ int main() {
     int n;
     cout << "Enter a number: ";
     cin >> n;
-
     int i = 2;
     while (i < n) {
         if (n % i == 0) {
