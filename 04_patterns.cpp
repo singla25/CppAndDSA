@@ -260,20 +260,36 @@ int main() {
     //     i++;
     // }
 
+    // int n;
+    // cout << "Enter your Number: ";
+    // cin >> n;
+    // int i = 1;
+    // while (i<=n) {
+    //     int j = 1;
+    //     while (j<=i) {
+    //         char ch = 'A' + i + j - 2;
+    //         cout << ch << ' ';
+    //         ch++;
+    //         j++;
+    //     }
+    //     cout << endl;
+    //     i++;
+    // }
+
     int n;
     cout << "Enter your Number: ";
     cin >> n;
     int i = 1;
     while (i<=n) {
         int j = 1;
+        char ch = 'A' + (n - i - j + 1);
         while (j<=i) {
-            cout << i << ' ';
+            cout << ch << ' ';
+            ch++;
             j++;
         }
         cout << endl;
         i++;
     }
-
-    
 
 } 
