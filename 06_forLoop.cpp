@@ -82,23 +82,66 @@ int main() {
     // }
 
     // prime number
-    int n;
-    cout << "Enter your number: ";
-    cin >> n;
+    // int n;
+    // cout << "Enter your number: ";
+    // cin >> n;
+    // bool isPrime = 1;
+    // for (int i = 2; i < n; i++){
+    //     int checkPrime = n%i;
+    //     if (checkPrime == 0) {
+    //         isPrime = 0;
+    //         break;
+    //     }
+    // }
+    // if(isPrime == 0) {
+    //     cout << n << " is a not prime number" << endl;
+    // } else {
+    //     cout << n << " is a prime number" << endl;
+    // }
 
-    bool isPrime = 1;
 
-    for (int i = 2; i < n; i++){
-        int checkPrime = n%i;
-        if (checkPrime == 0) {
-            isPrime = 0;
-            break;
-        }
-    }
+    // int n;
+    // cout << "Enter your number: ";
+    // cin >> n;
+    // for(int i = 0; i < n; i++) {
+    //     cout << "Hi" << " ";
+    //     cout << "Hey" << endl;
+    //     continue;
+    //     cout << "reply";
+    // }
 
-    if(isPrime == 0) {
-        cout << n << " is a not prime number" << endl;
-    } else {
-        cout << n << " is a prime number" << endl;
+    // for(int i = 0; i < n; i++) {
+    //     if(i == 5)
+    //     continue;
+    //     cout << i << " ";
+    // }
+    // return 0;
+
+    // for(int i = 0; i <= 5; i--) {
+    //     cout << i << " ";
+    //     i++;
+    // }
+
+    // for(int i = 0; i <= 15; i += 2) {
+    //     cout << i << " ";
+    //     if( i&1 ) {
+    //         continue;
+    //     }
+    //     i++;
+    // }
+
+    // for(int i = 0; i < 5; i++) {
+    //     for (int j = i; j <= 5; j++){
+    //         cout << i << " " << j << endl;
+    //     }
+    // }
+
+    for(int i = 0; i < 5; i++) {
+        for (int j = i; j <= 5; j++){
+            if(i+j == 10) {
+                break;
+            }
+            cout << i << " " << j << endl;
+        }        
     }
 }
